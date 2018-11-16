@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-node('<place_node_here>'){
+node{
   def branch = "${env.BRANCH_NAME}"
 
   stage ('Checkout') {
